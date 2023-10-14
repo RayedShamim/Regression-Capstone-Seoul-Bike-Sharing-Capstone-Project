@@ -17,8 +17,11 @@ Wind speed (m/s): - Wind speed in that particular hour of the day,
 Visibility (10m): - Distance visible from the naked eye,
 Dew point temperature(°C): - Temperature at which first drop of water condenses,
 Solar Radiation (MJ/m2): - Amount of solar radiation in that hour,
-Rainfall(mm): - Amount of rainfall in that hour,
+Rainfall (mm): - Amount of rainfall in that hour,
 Snowfall (cm): - Amount of snowfall in thar hour,
 Seasons: - Season of the year,
 Holiday: - If there is any festive holiday,
 Functioning Day: - If the rental bike was functioning or not
+
+### Some Inferences after modelling
+It comes to my finding that the most important feature in the prediction of rental bike demand is the Temperature parameter. Also we learn that people tend rent bikes during 18th hour of the day. This is when the temperature just starts to drop after reaching its peak in the 17th hour. Also people use rental bike service during Summer season the most, followed by Autumn and Spring. People use it the leat in winter season. Also we learn form other parameters that people tend rent bikes when there is less wind speed(around 1 m/s), almost no rainfall and snowfall, 40 to 50 % humidity and higher visibility.
